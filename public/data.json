@@ -1,74 +1,74 @@
 [
     {
-        "image": "",
-        "name": "John Peterson",
-        "role": "Actor",
-        "age": 35,
-        "country": "Australia",
-        "salary": 1000
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Steven_Spielberg_by_Gage_Skidmore.jpg",
+        "name": "Steven Spielberg",
+        "role": "American film director",
+        "age": 74,
+        "country": "United States",
+        "networth": 150
     },
     {
-        "image": "",
-        "name": "John Peterson",
-        "role": "Actor",
-        "age": 35,
-        "country": "Australia",
-        "salary": 1000
+        "image": "https://www.onthisday.com/images/people/christopher-nolan-medium.jpg",
+        "name": "Christopher Nolan",
+        "role": "British-American film director",
+        "age": 51,
+        "country": "United Kingdoms",
+        "networth": 250
     },
     {
-        "image": "",
-        "name": "John Peterson",
-        "role": "Actor",
-        "age": 35,
-        "country": "Australia",
-        "salary": 1000
+        "image": "https://editorials99.com/wp-content/uploads/2021/04/quentin-tarantino.jpg",
+        "name": "Quentin Tarantino",
+        "role": "American film director",
+        "age": 58,
+        "country": "United States",
+        "networth": 120
     },
     {
-        "image": "",
-        "name": "John Peterson",
-        "role": "Actor",
-        "age": 35,
-        "country": "Australia",
-        "salary": 1000
+        "image": "https://www.onthisday.com/images/people/tim-burton-medium.jpg",
+        "name": "Tim Burton",
+        "role": "American film director",
+        "age": 63,
+        "country": "United States",
+        "networth": 100
     },
     {
-        "image": "",
-        "name": "John Peterson",
-        "role": "Actor",
-        "age": 35,
-        "country": "Australia",
-        "salary": 1000
+        "image": "https://www.nyfa.edu/student-resources/wp-content/uploads/2014/06/James-Cameron.jpg",
+        "name": "James Cameron",
+        "role": "Canadian filmmaker",
+        "age": 67,
+        "country": "Canada",
+        "networth": 700
     },
     {
-        "image": "",
-        "name": "John Peterson",
-        "role": "Actor",
-        "age": 35,
-        "country": "Australia",
-        "salary": 1000
+        "image": "https://cps-static.rovicorp.com/2/Open/Getty_Images_406/Person/102513/_derived_jpg_q90_310x470_m0/David_Fincher.jpg",
+        "name": "David Fincher",
+        "role": "American film director",
+        "age": 59,
+        "country": "United States",
+        "networth": 100
     },
     {
-        "image": "",
-        "name": "John Peterson",
-        "role": "Actor",
-        "age": 35,
-        "country": "Australia",
-        "salary": 1000
+        "image": "https://i.pinimg.com/originals/c0/c5/92/c0c592b67c553be9a7622fed52999b1c.jpg",
+        "name": "Peter Jackson",
+        "role": "New Zealand film director",
+        "age": 59,
+        "country": "New Zealand",
+        "networth": 450
     },
     {
-        "image": "",
-        "name": "John Peterson",
-        "role": "Actor",
-        "age": 35,
-        "country": "Australia",
-        "salary": 1000
+        "image": "https://resizing.flixster.com/1ZaIRTGYZIY_qz7kB9O4WdpFPY4=/218x280/v2/https://flxt.tmsimg.com/v9/AllPhotos/73551/73551_v9_bb.jpg",
+        "name": "Paul Thomas Anderson",
+        "role": "American film director",
+        "age": 51,
+        "country": "United States",
+        "networth": 60
     },
     {
-        "image": "",
-        "name": "John Peterson",
-        "role": "Actor",
-        "age": 35,
-        "country": "Australia",
-        "salary": 1000
+        "image": "https://knownetworth.com/uploads/thumb/francis-ford-coppola-net-worth-415-415.jpeg",
+        "name": "Francis Ford Coppola",
+        "role": "American film director",
+        "age": 82,
+        "country": "United States",
+        "networth": 400
     }
 ]

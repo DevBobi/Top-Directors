@@ -1,7 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(14, 38, 58);
+}
 .bg-color{
     background-color: rgb(14, 38, 58);
-    height: 300px;
-    margin: 20px;
-    border-radius: 20px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
     color: antiquewhite;
 }
