@@ -17,7 +17,7 @@ const Cart = (props) => {
     }
 
     return (
-        <div className="cart">
+        <div className="cart ms-3">
             <h1>{userIcon} User: {props.user.length}</h1>
             <h5>Total: {total} {dollarIcon}</h5>
             {

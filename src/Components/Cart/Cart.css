@@ -1,5 +1,4 @@
 .cart{
-    margin-left: 40px;
     margin-top: 40px;
     background-color: rgba(255, 255, 255, 0.918);
     border-radius: 10px;
@@ -9,7 +8,4 @@
     padding: 20px;
     position: fixed;
     box-shadow: 0 5px 10px rgba(114, 114, 114, 0.05), 0 5px 10px rgb(0, 0, 0);
-}
-.btn-color{
-    color: ;
 }
