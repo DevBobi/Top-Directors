@@ -19,7 +19,7 @@ const Cart = (props) => {
     return (
         <div className="cart ms-3">
             <h1>{userIcon} User: {props.user.length}</h1>
-            <h5>Total: {total} {dollarIcon}</h5>
+            <h5 className="fw-bolder">Total: <b>{total}</b> Million {dollarIcon}</h5>
             {
                 userName.map((name, i) => <li key={i}> {name}</li>)
             }
