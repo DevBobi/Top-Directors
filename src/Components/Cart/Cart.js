@@ -19,11 +19,11 @@ const Cart = (props) => {
     return (
         <div className="cart">
             <h1>{userIcon} User: {props.user.length}</h1>
-            <h5>Total: {total}{dollarIcon}</h5>
+            <h5>Total: {total} {dollarIcon}</h5>
             {
                 userName.map((name, i) => <li key={i}> {name}</li>)
             }
-            <button className="btn btn-danger">PBuy-Now</button>
+            <button className="btn btn-outline-danger mt-3 text-dark fw-normal">Buy-Now</button>
         </div>
     );
 };

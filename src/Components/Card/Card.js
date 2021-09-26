@@ -24,8 +24,8 @@ const Card = () => {
     }
 
     return (
-        <div className="container d-flex">
-            <div className="row row-cols-lg-3 col-9 gx-4">
+        <div className="container d-flex gx-3">
+            <div className="row row-cols-lg-3 col-9 mx-4">
                 {
                     cards.map((card, key) => <Users
                         card={card}
