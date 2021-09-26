@@ -10,10 +10,10 @@ const Users = (props) => {
     return (
 
         <div>
-            <div className="card align-items-center" >
+            <div className="card align-items-center my-3" >
                 <img src={image} className="card-img-top card-img rounded-circle p-5" alt="..." />
                 <div className="card-body ">
-                    <h4 class="card-title">{name}</h4>
+                    <h4 className="card-title">{name}</h4>
                     <p className="card-text">{role}</p>
                     <p className="card-text"><b>Age:</b> {age}</p>
                     <p className="card-text"><b>Country:</b> {country}</p>

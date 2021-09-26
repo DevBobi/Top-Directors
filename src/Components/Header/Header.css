@@ -1,13 +1,10 @@
 body{
-    margin: 0;
-    padding: 0;
+    width: 100%;
     background-color: rgb(14, 38, 58);
 }
-.bg-color{
+.cards{
+    height: 100px;
     background-color: rgb(14, 38, 58);
-    height: 250px;
-    margin: 0;
-    padding: 0;
-    border-radius: 10px;
+    border-radius: 15px;
     color: antiquewhite;
 }

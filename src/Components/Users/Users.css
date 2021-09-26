@@ -1,4 +1,7 @@
-.card-img-top{
-    width: 100%;
+.card-img{
     height: 20vw;
+}
+.card:hover{
+    box-shadow: 5px 10px 10px rgb(52, 139, 165); 
+    transition: 0.5s;
 }

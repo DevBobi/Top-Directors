@@ -14,15 +14,16 @@ const Card = () => {
 
     return (
         <div className="container d-flex">
-            <div className="row row-cols-3 col-9 gy-4 ">
+            <div className="row row-cols-lg-3  col-9 gx-4">
                 {
                     cards.map(card => <Users
+                        key={card.key}
                         card={card}
                     >
                     </Users>)
                 }
             </div>
-            <div className="row-cols-5">
+            <div className="row-cols-3 ">
                 <Cart></Cart>
             </div>
         </div>
