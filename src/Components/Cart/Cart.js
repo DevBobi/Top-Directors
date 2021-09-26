@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faDollarSign } from '@fortawesome/free-solid-svg-icons';
 
 const Cart = (props) => {
-    console.log(props);
+    // console.log(props);
     const userIcon = <FontAwesomeIcon icon={faUser} />
     const dollarIcon = <FontAwesomeIcon icon={faDollarSign} />
     const { user } = props;
@@ -19,11 +19,11 @@ const Cart = (props) => {
     return (
         <div className="cart">
             <h1>{userIcon} User: {props.user.length}</h1>
-            <h5>Total: {total} {dollarIcon}</h5>
+            <h5>Total: {total}{dollarIcon}</h5>
             {
-                userName.map(name => <li key={name}> {name}</li>)
+                userName.map((name, i) => <li key={i}> {name}</li>)
             }
-
+            <button className="btn btn-danger">PBuy-Now</button>
         </div>
     );
 };
