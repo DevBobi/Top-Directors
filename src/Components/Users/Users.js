@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 const Users = (props) => {
+    // console.log(props);
     const { image, name, role, age, country, networth } = props.card;
-    // console.log(props.card);
     const cartIcon = <FontAwesomeIcon icon={faShoppingCart} />
     return (
 
@@ -15,10 +15,12 @@ const Users = (props) => {
                 <div className="card-body ">
                     <h4 className="card-title">{name}</h4>
                     <p className="card-text">{role}</p>
-                    <p className="card-text"><b>Age:</b> {age}</p>
+                    <p className="card-text"><b>Age:</b> {age} years</p>
                     <p className="card-text"><b>Country:</b> {country}</p>
                     <p><b>Net-Worth:</b> $ {networth} Million</p>
-                    <button className="btn btn-warning">{cartIcon} Add To Cart</button>
+                    <button
+                        onClick={() => props.handleAddToCart(props.card)}
+                        className="btn btn-warning">{cartIcon} Add To Cart</button>
                 </div>
             </div>
         </div>
