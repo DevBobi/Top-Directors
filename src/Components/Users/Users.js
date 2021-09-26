@@ -14,7 +14,7 @@ const Users = (props) => {
                 <img src={image} className="card-img-top card-img rounded-circle p-5 img-fluid" alt="..." />
                 <div className="card-body lh-base text-wrap">
                     <h4 className="card-title">{name}</h4>
-                    <p className="card-text">{role}</p>
+                    <p className="fw-light">{role}</p>
                     <p className="card-text"><b>Age:</b> {age} years</p>
                     <p className="card-text"><b>Country:</b> {country}</p>
                     <p><b>Net-Worth:</b> $ {networth} Million</p>
